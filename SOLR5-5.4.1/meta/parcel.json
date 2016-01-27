@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "name": "SOLR5",
+  "version": "5.4.1",
+  "setActiveSymlink": true,
+  "replaces": "SOLR5",
+  "conflicts": "",
+  "scripts": {
+    "defines": "solr_env.sh"
+  },
+  "provides" : [
+    "solr5"
+  ],
+  "packages": [
+    { "name"   : "solr5",
+      "version": "5.4.1"
+    }
+  ],
+
+  "components": [
+    { "name"       : "solr5",
+      "version"    : "5.4.1",
+      "pkg_version": "5.4.1",
+      "pkg_release": "5.4.1"
+    }
+  ],
+
+  "users": {
+    "solr": {
+      "longname"    : "Solr",
+      "home"        : "/home/solr",
+      "shell"       : "/bin/bash",
+      "extra_groups": [ "solr" ]
+    }
+  },
+
+  "groups": [
+    "solr"
+  ]
+}
