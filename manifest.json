@@ -2,7 +2,7 @@
   "lastUpdated": 13950506660000,
   "parcels": [
     {
-      "parcelName": "SOLR5-5.4.1-el.parcel",
+      "parcelName": "SOLR5-5.4.1-el6.parcel",
       "components": [
         { "name":     "solr5",
           "version":  "5.4.1",
