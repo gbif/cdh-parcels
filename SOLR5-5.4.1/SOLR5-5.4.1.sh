@@ -8,6 +8,6 @@ mv  $PARCEL_ROOT_DIR/bin/solr.in.sh $PARCEL_ROOT_DIR/bin/solr.in.sh_base
 cp  jts-1.13.jar $PARCEL_ROOT_DIR/server/solr-webapp/webapp/WEB-INF/lib/
 cp -f set-map-reduce-classpath.sh $PARCEL_ROOT_DIR/server/scripts/map-reduce/
 cp -rf meta $PARCEL_ROOT_DIR
-tar zcvf SOLR5-${SOLR_VERSION}-el6.parcel $PARCEL_ROOT_DIR/
-sha1sum SOLR5-${SOLR_VERSION}-el6.parcel >> SOLR5-${SOLR_VERSION}-el6.parcel.sha1
+tar zcvf SOLR5-${SOLR_VERSION}-el7.parcel $PARCEL_ROOT_DIR/
+sha1sum SOLR5-${SOLR_VERSION}-el7.parcel >> SOLR5-${SOLR_VERSION}-el7.parcel.sha1
 rm -rf $PARCEL_ROOT_DIR solr-$SOLR_VERSION.tgz
